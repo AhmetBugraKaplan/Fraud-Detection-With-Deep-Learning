@@ -1,0 +1,25 @@
+# Android
+*.iml
+.gradle/
+local.properties
+/.idea/
+/build/
+/app/build/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.env
+.venv/
+
+# Dataset
+dataset/data.xlsx  # Eğer veri setinizin GitHub'da olmasını istemiyorsanız
+
+# Genel
+.DS_Store
+*.log
+*.tmp
