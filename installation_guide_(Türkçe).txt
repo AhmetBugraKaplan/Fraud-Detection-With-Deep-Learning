@@ -1,0 +1,65 @@
+# Fraud Detection With Deep Learning - Kurulum Rehberi
+
+Bu proje, derin öğrenme tekniklerini kullanarak dolandırıcılık tespiti yapmayı amaçlamaktadır. 
+Proje hem Kotlin hem de Python dillerinde kod içermektedir. Aşağıda, projenin nasıl kurulacağı 
+ve çalıştırılacağına dair adım adım talimatlar bulunmaktadır.
+
+## Ön Koşullar
+- Git
+- Python 3.8+
+- pip
+- Kotlin
+- Java JDK 8+
+
+## Kurulum Adımları
+
+### 1. Depoyu Klonlama
+Projeyi yerel makinenize klonlamak için aşağıdaki komutu kullanın:
+```
+git clone https://github.com/AhmetBugraKaplan/Fraud-Detection-With-Deep-Learning.git
+cd Fraud-Detection-With-Deep-Learning
+```
+
+### 2. Python Ortamının Hazırlanması
+Python projeleri için sanal bir ortam oluşturun ve etkinleştirin:
+```
+python3 -m venv env
+source env/bin/activate  # macOS/Linux
+env\Scripts\activate  # Windows
+```
+
+### 3. Gerekli Python Paketlerinin Yüklenmesi
+```
+pip install -r pythoncode/requirements.txt
+```
+
+Eğer `requirements.txt` yoksa, aşağıdaki komutlarla yükleyin:
+```
+pip install numpy pandas scikit-learn tensorflow keras matplotlib seaborn jupyter
+```
+
+### 4. Veri Setinin Hazırlanması
+Veri setinizi `datasets/` klasörüne yerleştirin:
+```
+datasets/
+└── FraudDetectedProjectDataSet.xlsx
+```
+
+### 5. Kotlin Projesinin Kurulumu
+Gradle kullanarak Kotlin projesini derleyin ve çalıştırın:
+```
+cd kotlincode/dpdeneme
+./gradlew build
+./gradlew run
+```
+Windows kullanıyorsanız `./gradlew` yerine `gradlew.bat` kullanın.
+
+---
+
+Yardıma ihtiyacınız olan bir durumda bana 
+Gituhb : https://github.com/AhmetBugraKaplan
+Linkedin : https://www.linkedin.com/in/ahmetbugrakaplan/
+
+Adreslerinden ulaşabilirsiniz.
+
+
